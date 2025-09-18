@@ -2,9 +2,48 @@ MYSQL:-
 	DDL- Data Defination Language   /CREATE ,ALTER, TURNCATE, DROP COMMANDS
 	DQL- Data Query Language        /SELECT COMMAND
 	DML- Data manipulation language /INSEERT ,UPDATE, DELETE COMMANDS.
-	DCL/TCL- Data Control Language. /GRANT ,REVOKE ,ROLLBACK ,SVAEPOINT ,COMMIT. COMMAND.
+	DCL/TCL- Data Control Language. /GRANT ,REVOKE ,ROLLBACK ,SVAEPOINT ,COMMIT COMMANDS.
 
-
+Constraints:-
+	1.NOT NULL
+	2.UNIQUE
+	3.PRIMARY KEY
+	4.FORGEIN KEY
+	5.CHECK
+	6.DEFAULT
+	7.INDEX
+	
 Wild card operators:-
 '%'- matches one or more characters.
 '_'- matches exactly one character.
+
+ALTER commmand:-
+	1.Add new column.
+	2.Modify column data type 
+	3.Delete column.
+	4.Add new constraints (rules on data).
+	5.Modify constraints.
+	6.Drop constraints.
+Note:-
+	1.You cannot drop the foreign key using normal altter method.we need get constraint name using 
+	  "show create  table table_name" you will get a constraint name near foreign key and use the Query
+	  'ALTER TABLE table_name
+	   DROP FOREIGN KEY constraint_name;'.
+	2.In adding constraint and column we use "add constraint" for PK,FK,UNIQUE and CHECK.But for DEFAULT and NOT NULL
+	  we use "add".  	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+"Learn about cloud"
