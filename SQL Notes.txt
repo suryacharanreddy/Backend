@@ -32,11 +32,60 @@ Note:-
 	2.In adding constraint and column we use "add constraint" for PK,FK,UNIQUE and CHECK.But for DEFAULT and NOT NULL
 	  we use "add".  	
 	
+Diffrence between DROP,DELETE and TRUNCATE: 
+
+DROP:                                
+	1.Drop command deletes the entire table or database,Including its structure,data, and related objects.
+	2.It cannot be restored.
+
+DELETE:
+	1.Delete command removes one or more rows from a table based on condition defines in WHERE clause.
+	2.It can be restored by using ROLLBACK command.
+
+TRUNCATE:
+	1.TURNCATE command removes total data ifrom the table without deleteing its structure.
+	2.It is used when you want to delete the whole data from table rapidly with single query.
+
+
 	
-	
-	
-	
-	
+class-7/8 GRANT AND REVOKE COMMANDS usage
+
+how TO CREATE new USER IN Mysql
+1.CMD
+2.Workbench
+
+CREATE USER 'new_user'@'localhost' 
+IDENTIFIED BY 'password';
+
+
+CREATE USER 'tiger'@'localhost' 
+IDENTIFIED BY 'root123';
+
+
+
+CREATE USER tiger@localhost 
+IDENTIFIED BY root123;
+
+how TO display list OF users;
+
+SELECT DISTINCT USER FROM mysql.user;
+
+mysql -utiger -proot123
+
+
+how TO GRANT priviliges TO new user?
+
+
+GRANT ALL PRIVILEGES ON . TO 'username'@'hostname';
+FLUSH PRIVILEGES;
+
+GRANT ALL PRIVILEGES ON . TO 'tiger'@'localhost';
+FLUSH PRIVILEGES;
+
+how TO REVOKE privilige IN Mysql?
+
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 
+'tiger'@'localhost';	
 	
 	
 	
