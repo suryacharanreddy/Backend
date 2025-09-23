@@ -1,5 +1,44 @@
-NOSQL:-
+NOSQL:- Application driven database.
     1.It is a non-relation database
-    2.It is unstured database
+    2.It is unstructured database
     3.Schema less Database.
-    
+
+
+CRED operations:-
+CREATE:-
+    use DataBase_name;
+    create collections->db.createCollection('users');
+
+READ:-
+    To fetch data ->db.users.find()
+    To fetch data in readable format->db.users.find().pretty()
+    To fetch how many records are there->db.users.find().count()
+
+
+UPDATE:-
+    inserting values-> db.users.insertOne({'eid':101,'ename':'sachin','salary':25000,'dept':'IT'}); this is for single record.
+    inserting multiple records->db.users.insertMany([{'eid':102,'ename':'dhoni','salary':35000,'dept':'HR'},
+                                  {'eid':103,'ename':'rohit','salary':45000,'dept':'IT'},
+                                  {'eid':104,'ename':'virat','salary':55000,'dept':'Admin'},
+                                  {'eid':105,'ename':'hardik','salary':65000,'dept':'IT'},
+                                  {'eid':106,'ename':'jadeja','salary':75000,'dept':'HR'},
+                                  {'eid':107,'ename':'bumrah','salary':85000,'dept':'Admin'},
+                                  {'eid':108,'ename':'ashwin','salary':95000,'dept':'IT'},
+                                  {'eid':109,'ename':'shami','salary':105000,'dept':'HR'},
+                                  {'eid':110,'ename':'pandya','salary':115000,'dept':'Admin'}]);
+
+DELETE:-
+    db.dropDataBase();
+    to drop collection->db.collection_name.drop();
+
+
+
+functions:-
+    1.find():- to fetch data from the collection.
+    2.findOne():- to fetch single record from the collection.
+    3.insertOne()
+    4.insertMany()
+    5.updateOne()
+    6.updateMany()
+    7.deleteOne()
+    8.deleteMany()
