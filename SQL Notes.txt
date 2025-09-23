@@ -87,7 +87,10 @@ how TO REVOKE privilige IN Mysql?
 REVOKE ALL PRIVILEGES, GRANT OPTION FROM 
 'tiger'@'localhost';	
 	
-	
+JOINS:
+	1.INNER JOIN
+	2.RIGHT JOIN 
+	3.LEFT JOIN
 	
 	
 	
