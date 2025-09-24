@@ -33,6 +33,7 @@ DELETE:-
 
 
 
+
 functions:-
     1.find():- to fetch data from the collection.
     2.findOne():- to fetch single record from the collection.
@@ -42,3 +43,11 @@ functions:-
     6.updateMany()
     7.deleteOne()
     8.deleteMany()
+
+
+MongoDB operators:-
+    db.employees.find({'gender':{'$nin':['Male','Female']}}).count();
+    db.employees.find({'age':{$gt:50}});
+    db.employees.find({$and:[{'age':{$gt:50}},{'esal':{$gt:50000}}]});
+    db.employees.find({'gender':'Female'});
+    db.employees.find({$or:[{'age':{$gt:50}},{'esal':{$gt:50000}}]});
