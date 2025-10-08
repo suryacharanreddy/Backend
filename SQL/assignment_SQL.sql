@@ -90,7 +90,7 @@ WHERE lname='Gandhi';
 
 6. Write a query to find employee with highest salary.
 	SELECT * FROM employees
-	WHERE esal=(SELECT MAX(esal) FROM employees;
+	WHERE esal=(SELECT MAX(esal) FROM employees);
 +-----+-------+-----------+---------+-------+------+
 | eid | fname | lname     | city    | esal  | age  |
 +-----+-------+-----------+---------+-------+------+
