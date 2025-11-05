@@ -1,0 +1,51 @@
+RoadMap:-Part1
+ 1.Java Introduction
+ 2.Java St.Commands
+ 3.Java Indentifiers, Rules & Keywords
+ 4.Data Types
+ 5.Operators
+ 6.1-Arrays
+ 6.2-Strings
+ 7.ControlFlow Statements
+ 8.Access Modifier
+ 9.OOPS & Interface
+ 10.Excepitonal Handeling
+ 11.Packages
+   -Lang Packages
+Part-2:
+ 1.Java -Collection Framework
+ 2.Java-8 Features
+
+Part-3:
+ 1.JSP
+ 2.JDBC
+ 3.MS
+
+
+Identifiers:-
+  1.Identifier should not start with numbers.
+  2.Identifier should not contain any special symbols.
+  3.Keyword/Reserve words should not used as Identifier.
+  4.Identifier should only contain A-Z, a-z, 0-9, _, $.
+  5.Case sensitive.
+
+Datatypes:-
+  1.Primitive Datatypes
+  2.Refrence Datatypes
+  3.UserDefined Datatypes
+
+Primitive Datatypes:-
+  1.byte
+  2.short
+  3.Int
+  4.long
+  5.float
+  6.double
+  7.char
+  8.boolean
+
+Java-Array:-
+  1.Group of elements in one entity
+  2.Allowed Duplicates
+  3.But Heterogeneous elements are not Allowed
+  4.Array Elements are storing based on indexing.

@@ -5,6 +5,6 @@ public class syntax{
         System.out.print("Enter a Number :");
         int number=reader.nextInt();
         System.out.println("You entered : "+number);
-        reader.close();
+        //reader.close();
     }
 } 
