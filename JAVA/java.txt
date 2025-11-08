@@ -49,3 +49,13 @@ Java-Array:-
   2.Allowed Duplicates
   3.But Heterogeneous elements are not Allowed
   4.Array Elements are storing based on indexing.
+
+Java Variables:-
+  1.Instance Variables:
+    I.If variable value is varied from object to object.
+    II.Separate copy will create for every object.
+  2.Static Variables:
+    I.If variable value is not varied from object to object.
+    II.Only one copy will Create at class level and shared to every object.
+  3.Local variables
+    I.
