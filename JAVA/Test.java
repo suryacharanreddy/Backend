@@ -1,6 +1,9 @@
 class A{
     public static void main(String args[]){
-        System.out.println("SURYA");
+        int[] a={101,102,103,104,105};
+        for(int i=0;i<a.length;i++){
+            System.out.print(a[i] +" ");
+        }
     }
 }
 class B{
