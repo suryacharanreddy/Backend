@@ -35,7 +35,7 @@ Datatypes:-
   3.UserDefined Datatypes
 
 Primitive Datatypes:-
-  1.byte
+  1.byte   Range: -128 to 127
   2.short
   3.Int
   4.long
@@ -65,3 +65,24 @@ Java Variables:-
     II.Scope of a variable with iin the method.
     III.before we using the local variable we required initialization.
     IV.Local variable doesn't have a default value.After initialization we need a value to it otherwise it throws error.
+
+Operators:-
+  1.Arthematic
+  2.Logical
+  3.Relational
+  4.Equality
+  5.Assignment
+  6.Increment/Decrement
+  7.Terinory
+  8.Bitwise
+  9.Uninary
+  10.Double colon
+
+
+
+
+  main concepts:
+    -Variables
+    -Operators
+    -Control Flow Statements
+    -Access Modifiers
