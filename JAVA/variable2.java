@@ -1,6 +1,6 @@
 public class variable2{
-    String bank_Name="SBI";
-    String branch_Name="Marathahalli";
+    static String bank_Name="SBI";
+    static String branch_Name="Marathahalli";
     int acc_Id;
     String acc_Name;
     double acc_Balnc;
