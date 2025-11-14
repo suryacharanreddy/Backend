@@ -78,7 +78,22 @@ Operators:-
   9.Uninary
   10.Double colon
 
+Control-Flow Statements:
+  1.conditional Statements.
+    - if-else
+    - switch-case
+    - Terinary
+  2.Iterative Statements.
+    - for loop
+    - while loop
+    - do-while loop
+    - for-each loop
 
+Lengths:
+  1.Array Length
+    -array.length
+  2.String Length
+    -string.length()
 
 
   main concepts:
