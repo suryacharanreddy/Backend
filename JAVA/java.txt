@@ -95,9 +95,16 @@ Lengths:
   2.String Length
     -string.length()
 
+Access Modifiers:-
 
-  main concepts:
-    -Variables
-    -Operators
-    -Control Flow Statements
-    -Access Modifiers
+
+OOPS:-
+  1.Inheritance
+  2.
+
+
+Main concepts:
+  -Variables
+  -Operators
+  -Control Flow Statements
+  -Access Modifiers
