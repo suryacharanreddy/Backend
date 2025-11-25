@@ -96,11 +96,15 @@ Lengths:
     -string.length()
 
 Access Modifiers:-
+  final accessmodifier:
+    classes- we cant create child classes
+    methods- we cant override a method.
+    variables-we cant change variable value once declared.
 
 
 OOPS:-
   1.Inheritance
-  2.
+  2.Abstraction
 
 
 Main concepts:
