@@ -104,7 +104,10 @@ Access Modifiers:-
 
 OOPS:-
   1.Inheritance
-  2.Abstraction
+  2.Abstraction:-
+    A class contains 0 or more abstract methods is known as abstract class.
+    If a class contains 1 or more abstract methods class must be declared as abstract class.
+    Abstract classes cant create objects.Instead we can use static methods or inhertit the class.
 
 
 Main concepts:
@@ -112,3 +115,14 @@ Main concepts:
   -Operators
   -Control Flow Statements
   -Access Modifiers
+
+
+Assignments:
+  int[] prices={199,129,98,78,11,171,1055};
+  iterate array prices and print all prices
+  1.using for loop
+  2.while loop
+  3.do-while
+  4.for each
+  5.Iterate prices print all products below 400!
+  6.create new array based on existing array? 
