@@ -101,6 +101,15 @@ Access Modifiers:-
     methods- we cant override a method.
     variables-we cant change variable value once declared.
 
+Abstract vs Interface:
+  Abstract:
+  1.Abstract class contains zero or more abstract methods and also contains concrete methods.
+  2.If a class contains atleast one abstract method we should declare class as abstarct.
+  3.Abstract is based on methods and classes.
+  Interface:-
+  1.if we declare class as interface by default the methods are public and abstract.
+  2.if we declare class as interface by default the variables are public and final.
+  3.Interface is based on methods and variables.
 
 OOPS:-
   1.Inheritance
