@@ -117,6 +117,8 @@ OOPS:-
     A class contains 0 or more abstract methods is known as abstract class.
     If a class contains 1 or more abstract methods class must be declared as abstract class.
     Abstract classes cant create objects.Instead we can use static methods or inhertit the class.
+  3.Encapsulation:-
+    Binding private Variables and public methods as single encapsulation entity.
 
 
 Main concepts:
