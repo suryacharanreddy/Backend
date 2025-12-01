@@ -112,7 +112,12 @@ Abstract vs Interface:
   3.Interface is based on methods and variables.
 
 OOPS:-
-  1.Inheritance
+  1.Inheritance:-
+    -Inherting properties from one class to another class or reusing existing class functionality and adding new features.
+    -we use extends to achieve inhertiance while using class to class ,interface to interface and in case of interface to class we use implements.
+    Note:In java multi inheritance is not allowed due to ambiguity we can use interfaces Instead of class.
+    -Ambiguity: 
+    -we can create objects for parent to parent ,child to child ,parent to child but we can't create objects for child to parent.   
   2.Abstraction:-
     A class contains 0 or more abstract methods is known as abstract class.
     If a class contains 1 or more abstract methods class must be declared as abstract class.

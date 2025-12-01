@@ -18,8 +18,8 @@ class Display{
     public static void main(String[]args){
        Login l1=new Login();
        l1.setUserName("surya");
-       System.out.println(getUserName());
+       System.out.println(l1.getUserName());
        l1.setPassword("Surya@4494");
-       System.out.println(getPassword()); 
+       System.out.println(l1.getPassword()); 
     }
 }
