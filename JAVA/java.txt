@@ -111,6 +111,10 @@ Abstract vs Interface:
   2.if we declare class as interface by default the variables are public and final.
   3.Interface is based on methods and variables.
 
+  Constructor Method:-
+    Constructor Method is used to initialize the arguments while creating object.
+    eg:- Account obj=new Account(100,100.45,Success).
+
 OOPS:-
   1.Inheritance:-
     -Inherting properties from one class to another class or reusing existing class functionality and adding new features.
