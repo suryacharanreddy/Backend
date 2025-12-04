@@ -114,6 +114,7 @@ Abstract vs Interface:
   Constructor Method:-
     Constructor Method is used to initialize the arguments while creating object.
     eg:- Account obj=new Account(100,100.45,Success).
+    Default Constructor will provide the Default values to Static and Instance variables.
 
 OOPS:-
   1.Inheritance:-
