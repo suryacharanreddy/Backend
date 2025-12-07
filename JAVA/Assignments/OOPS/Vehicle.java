@@ -1,12 +1,12 @@
 abstract class Vehicle{
     abstract void fuelType();
 }
-class Bike{
+class Bike extends Vehicle{
     public void fuelType(){
         System.out.println("Fule type of Bike is Petrol");
     }
 }
-class Car{
+class Car extends Vehicle{
     public void fuelType(){
         System.out.println("Fuel type of car is Disel");
     }
