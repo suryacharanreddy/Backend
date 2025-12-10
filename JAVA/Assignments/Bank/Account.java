@@ -1,4 +1,4 @@
-public class Account extends Bank{
+  public class Account extends Bank{
     String acc_Name;
     String acc_Email;
     public Account(String name ,String email){

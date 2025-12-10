@@ -129,6 +129,8 @@ OOPS:-
     Abstract classes cant create objects.Instead we can use static methods or inhertit the class.
   3.Encapsulation:-
     Binding private Variables and public methods as single encapsulation entity.
+  Polymorpism:-
+    
 
 
 Main concepts:
