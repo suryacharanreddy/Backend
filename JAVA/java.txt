@@ -130,7 +130,31 @@ OOPS:-
   3.Encapsulation:-
     Binding private Variables and public methods as single encapsulation entity.
   Polymorpism:-
-    
+
+Note:For every java program parent class is object class by default.
+
+Object Class 11 Methods:
+  toString()
+  clone()
+  hashCode()
+  equals()
+  wait()
+  notifyAll
+  notify()
+  getClass()
+  finalize()
+
+
+Part-3:
+  Lang Packages:LAng packages by default available to every java program.
+  Lang by default contains Object, String, String Buffer, String Builder, Wrapper Classes.
+
+String :
+String Literal:
+StringBuffer:
+String constant poll
+Heap memory
+
 
 
 Main concepts:
