@@ -134,10 +134,10 @@ OOPS:-
 Note:For every java program parent class is object class by default.
 
 Object Class 11 Methods:
-  toString()
+  toString()- by defaullt it return classname with hexadecimal code known as Address.
   clone()
   hashCode()
-  equals()
+  equals()- It is used for Refrence comparision.It is only applicable for objects.
   wait()
   notifyAll
   notify()
