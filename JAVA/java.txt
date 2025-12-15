@@ -145,6 +145,17 @@ Object Class 11 Methods:
   finalize()
 
 
+Equals:-
+  Differnce between equals operator and equals method
+  Equals Operator:
+    Applicable for objects and Primitive Datatypes.
+    For objects RefrenceComparision.
+    For primitive Datatypes Content comparision.
+  Equals Method:
+    Applicable for only  objects.
+    Object class equals method is for Refrence comparision.
+    String, String Buffer, Strinig Builder- equals()overriding for content comparison.
+
 Part-3:
   Lang Packages:LAng packages by default available to every java program.
   Lang by default contains Object, String, String Buffer, String Builder, Wrapper Classes.
