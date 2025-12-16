@@ -154,7 +154,7 @@ Equals:-
   Equals Method:
     Applicable for only  objects.
     Object class equals method is for Refrence comparision.
-    String, String Buffer, Strinig Builder- equals()overriding for content comparison.
+    String, String Buffer, Strinig Builder- equals() and Wrapper classes, overriding for content comparison.
 
 Part-3:
   Lang Packages:LAng packages by default available to every java program.
@@ -166,6 +166,19 @@ StringBuffer:
 String constant poll
 Heap memory
 
+Wrapper Classes:
+  Auto boxing
+  unBoxing 
+
+wrapper classes:
+  Byte
+  Short 
+  Integer
+  Long
+  Float
+  Double 
+  Character 
+  Boolean
 
 
 Main concepts:
