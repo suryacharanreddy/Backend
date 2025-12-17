@@ -167,8 +167,7 @@ String constant poll
 Heap memory
 
 Wrapper Classes:
-  Auto boxing
-  unBoxing 
+  main motive of wrapper classes are Auto boxing and unBoxing 
 
 wrapper classes:
   Byte
