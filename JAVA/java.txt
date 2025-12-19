@@ -179,6 +179,13 @@ wrapper classes:
   Character 
   Boolean
 
+Exception Handeling:
+  Checked exception and unchecked exception 
+  -checked exception error is checked by a compiler.For checked exception we use try, catch and throws to handle error.
+  -compiler is didn't check the error.For unchecked we use only try, catch method.
+  -throws is used after method
+  -try, catch is used inside method.
+  Note:Compile will checkk error when a third party file, database, api and, network protocal is used in a program.
 
 Main concepts:
   -Variables
