@@ -187,6 +187,28 @@ Exception Handeling:
   -try, catch is used inside method.
   Note:Compile will checkk error when a third party file, database, api and, network protocal is used in a program.
 
+Iteration :
+  hasNext,next are two methods belongs to iteration.
+  we should only use while loop for this method.
+
+ArryaList
+List
+
+we can't create objects for interfaces.
+
+Collection Interface:
+
+need learn:
+Important: what is collection framework
+Array draw backs
+what is ArryaList and its methods
+list
+collection class Methods
+utility classes
+Linked List and its methods
+List, Set, Queue, Priority Queue
+
+
 Main concepts:
   -Variables
   -Operators
