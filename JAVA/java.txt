@@ -190,6 +190,20 @@ Exception Handeling:
 Iteration :
   hasNext,next are two methods belongs to iteration.
   we should only use while loop for this method.
+Utility classes:
+  Collections 
+  Arrays
+
+JAVA 8 Features:
+  1.Functional Interface -any interface with single abstraction method.
+  2.Lamda Expression-()->{}.
+  3.Predifined functional Interface.
+  4.Interface Enhance -contains a)Default methods b)Static methods
+  5.Stream API
+  6.:: Double colon operator.
+  7.Date and Time API.
+  8.Optional classes- to avoid null pointer exception.
+  10.Functional interface anotation.(@FI)
 
 ArryaList
 List
@@ -214,6 +228,10 @@ Main concepts:
   -Operators
   -Control Flow Statements
   -Access Modifiers
+  -Array List and Linked List
+  -Lang packages 
+  -collection Framework
+  -JAVA 8 features
 
 
 Assignments:
