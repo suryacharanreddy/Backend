@@ -11,7 +11,7 @@ public class Operator1{
     public static void disp2_Data(){
         b=11;
         b++;//no error 
-        System.out.println(b)
+        System.out.println(b);
     }
     public static void main(String[]args){
         disp_Data();
