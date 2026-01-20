@@ -205,6 +205,12 @@ JAVA 8 Features:
   8.Optional classes- to avoid null pointer exception.
   10.Functional interface anotation.(@FI)- to restrict functional interface behaviour we use @FI
 
+method names for function classes:
+Funnction -apply
+Predicate -test
+consumer -accept
+supplier -get
+
 ArryaList
 List
 
@@ -228,7 +234,11 @@ Main concepts:
   -Operators
   -Control Flow Statements
   -Access Modifiers
+  -Array methods
   -Array List and Linked List
+  -creating packages
+  -OOPS concepts
+  -Strings methods
   -Lang packages 
   -collection Framework
   -JAVA 8 features
